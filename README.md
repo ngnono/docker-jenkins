@@ -9,6 +9,6 @@ Usage
 
 To run the container , do the following:
 
-    sudo docker run -t -i -p 8080:8080 --name jenkins ngnono/jenkins
+    docker run -d -p 8080:8080 -p 50000:50000 --name jenkins -v /srv/docker/jenkins/data:/var/jenkins_home ngnono/jenkins
 
 
