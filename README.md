@@ -9,10 +9,6 @@ Usage
 
 To run the container , do the following:
 
-    sudo docker run -t -i -p 8080:8080 -P ngnono/jenkins
-
-To start Jenkins from the container's command prompt . . .
-
-    java -jar opt/jenkins.war
+    sudo docker run -t -i -p 8080:8080 --name jenkins ngnono/jenkins
 
 
